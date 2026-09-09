@@ -1,0 +1,1 @@
+-- Seed after products table exists. Not applied automatically yet.

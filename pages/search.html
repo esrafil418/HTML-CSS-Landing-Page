@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search — Velora</title>
+  </head>
+  <body>
+    <div class="page">
+      <div id="site-header"></div>
+      <main class="page__main">
+        <section class="page-hero wrap">
+          <span class="eyebrow">Search</span>
+          <h1>Find a piece</h1>
+          <form class="form" data-search-form>
+            <label class="field"><span>Query</span><input type="search" name="q" placeholder="Linen, suede, home…" /></label>
+            <button class="btn" type="submit">Search</button>
+          </form>
+        </section>
+        <section class="section wrap">
+          <div class="grid-products" data-search-results></div>
+        </section>
+      </main>
+      <div id="site-footer"></div>
+    </div>
+    <script type="module" src="/src/pages/search/search.ts"></script>
+  </body>
+</html>

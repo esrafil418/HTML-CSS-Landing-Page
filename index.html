@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velora — Contemporary objects</title>
+  </head>
+  <body>
+    <div class="page">
+      <div id="site-header"></div>
+      <main class="page__main">
+        <section class="hero">
+          <div class="hero__copy">
+            <span class="eyebrow">Spring atelier</span>
+            <h1>Quiet pieces for daily ritual.</h1>
+            <p>Apparel, objects, and scent designed to age well. A full-stack storefront built for a serious resume.</p>
+            <div class="hero__actions">
+              <a class="btn" data-shop-link href="./pages/shop.html">Shop the collection</a>
+              <a class="btn btn--ghost" href="./pages/about.html">Our house</a>
+            </div>
+          </div>
+          <div class="hero__panel" aria-hidden="true"></div>
+        </section>
+        <div class="marquee">Linen · Stoneware · Suede · Vetiver · Brass · Merino · Linen · Stoneware</div>
+        <section class="section">
+          <div class="wrap">
+            <span class="eyebrow">Featured</span>
+            <h2>This season</h2>
+            <div class="grid-products" data-featured-grid></div>
+          </div>
+        </section>
+      </main>
+      <div id="site-footer"></div>
+    </div>
+    <script type="module" src="/src/pages/home/home.ts"></script>
+  </body>
 </html>

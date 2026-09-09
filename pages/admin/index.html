@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin — Velora</title>
+  </head>
+  <body>
+    <div class="page">
+      <div id="site-header"></div>
+      <main class="page__main">
+        <div class="admin-shell">
+          <aside class="admin-nav">
+            <a href="./index.html" aria-current="page">Overview</a>
+            <a href="./products.html">Products</a>
+            <a href="./product-edit.html">New product</a>
+            <a href="./orders.html">Orders</a>
+            <a href="./customers.html">Customers</a>
+            <a href="./media.html">Media</a>
+          </aside>
+          <section class="page-hero wrap">
+            <span class="eyebrow">Admin</span>
+            <h1>Dashboard</h1>
+            <p class="notice">Metrics and recent orders will appear after Supabase is connected. Role checks belong in Phase 8.</p>
+          </section>
+        </div>
+      </main>
+      <div id="site-footer"></div>
+    </div>
+    <script type="module" src="/src/pages/admin/admin.ts"></script>
+  </body>
+</html>

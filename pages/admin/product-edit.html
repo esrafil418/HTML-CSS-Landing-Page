@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit product — Velora</title>
+  </head>
+  <body>
+    <div class="page">
+      <div id="site-header"></div>
+      <main class="page__main">
+        <div class="admin-shell">
+          <aside class="admin-nav">
+            <a href="./index.html">Overview</a>
+            <a href="./products.html">Products</a>
+            <a href="./product-edit.html" aria-current="page">New product</a>
+            <a href="./orders.html">Orders</a>
+            <a href="./customers.html">Customers</a>
+            <a href="./media.html">Media</a>
+          </aside>
+          <section class="wrap">
+            <h1>Product editor</h1>
+            <form class="form">
+              <label class="field"><span>Name</span><input type="text" /></label>
+              <label class="field"><span>Price (cents)</span><input type="number" /></label>
+              <label class="field"><span>Cloudinary public ID</span><input type="text" /></label>
+              <button class="btn" type="button">Save (coming soon)</button>
+            </form>
+          </section>
+        </div>
+      </main>
+      <div id="site-footer"></div>
+    </div>
+    <script type="module" src="/src/pages/admin/admin.ts"></script>
+  </body>
+</html>

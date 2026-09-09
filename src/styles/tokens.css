@@ -1,0 +1,25 @@
+:root {
+  --color-bg: #f4efe6;
+  --color-bg-raised: #fbf7f0;
+  --color-ink: #1c1916;
+  --color-ink-muted: #6b635a;
+  --color-line: #ddd4c6;
+  --color-accent: #9c4a2b;
+  --color-accent-hover: #7f3b22;
+  --color-sage: #3f5748;
+  --color-danger: #8b2e2e;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 5rem;
+  --radius: 2px;
+  --shadow: 0 18px 50px rgba(28, 25, 22, 0.08);
+  --header-h: 4.25rem;
+  --content: 72rem;
+}
