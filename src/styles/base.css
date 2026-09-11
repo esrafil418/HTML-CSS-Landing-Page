@@ -101,6 +101,11 @@ p {
     linear-gradient(160deg, #d9cbb8 0%, #b39a7d 48%, #6f5b48 100%);
 }
 
+.grid-products--shop .card__media {
+  aspect-ratio: 16 / 10;
+  height: auto;
+}
+
 .card__body {
   padding: var(--space-4);
 }
